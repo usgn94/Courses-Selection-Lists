@@ -83,7 +83,7 @@ fun main(){
     var c3 = Course3()
     var c4 = Course4()
     var c5 = Course5()
-    for(i in 1..15){ //loop to read the name and choices for top 15 candidates
+    for(i in 1..100){ //loop to read the name and choices for top 15 candidates
         println("Enter your Name(Ranker $i) : ") //Reading the name of the candidate(the names are being read rankwise)
         var Name = readLine()!!
         println("Enter your first five choices(ranker $i) :") //reading the choices of the candidate
